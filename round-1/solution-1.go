@@ -9,8 +9,9 @@ func main() {
 	abacate := []byte("abacate")
 	palmeiras := []byte("palmeiras")
 	for i := 0; i < max; i++ {
-		s1 := append(abacate, []byte(strconv.Itoa(i))...)
-		s2 := append(palmeiras, []byte(strconv.Itoa(i))...)
+		i_str := strconv.Itoa(i)
+		s1 := append(abacate, []byte(i_str)...)
+		s2 := append(palmeiras, []byte(i_str)...)
 		result := make([]byte, 0, 100)
 		x := 0
 		if len(s1) < len(s2) {
