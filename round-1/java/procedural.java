@@ -1,8 +1,8 @@
 public class Solution1 {
     public static void main(String[] args) {
         for (int i = 0; i < 10000000; i++) {
-            final String s1 = "abacate" + i;
-            final String s2 = "palmeiras" + i;
+            final String s1 = "ABCDEFH" + i;
+            final String s2 = "123456789" + i;
 
             int x = 0;
             StringBuilder result = new StringBuilder(100);

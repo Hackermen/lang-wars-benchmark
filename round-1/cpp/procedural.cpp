@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-    string s1_base = "abacate";
-    string s2_base = "palmeiras";
+    string s1_base = "ABCDEFH";
+    string s2_base = "123456789";
     string result;
     string i_str;
     int x;

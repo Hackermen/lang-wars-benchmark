@@ -1,6 +1,6 @@
 for (let i = 10000000; i--;) {
-    let s1 = 'abacate' + i;
-    let s2 = 'palmeiras' + i;
+    let s1 = 'ABCDEFH' + i;
+    let s2 = '123456789' + i;
     let result = '';
     let x = 0;
     if (s1.length < s2.length) {

@@ -1,7 +1,7 @@
 for i in range(10000000):
-    i_str = str(i)
-    s1 = 'abacate' + i_str
-    s2 = 'palmeiras' + i_str
+    str_i = str(i)
+    s1 = 'ABCDEFH' + str_i
+    s2 = '123456789' + str_i
     result = ''
     x = 0
     if len(s1) < len(s2):

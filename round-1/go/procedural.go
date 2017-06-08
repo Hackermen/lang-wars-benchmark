@@ -6,12 +6,12 @@ import (
 
 func main() {
 	max := 10000000
-	abacate := []byte("abacate")
-	palmeiras := []byte("palmeiras")
+	s1_base := []byte("ABCDEFH")
+	s2_base := []byte("123456789")
 	for i := 0; i < max; i++ {
 		i_str := strconv.Itoa(i)
-		s1 := append(abacate, []byte(i_str)...)
-		s2 := append(palmeiras, []byte(i_str)...)
+		s1 := append(s1_base, []byte(i_str)...)
+		s2 := append(s2_base, []byte(i_str)...)
 		result := make([]byte, 0, 100)
 		x := 0
 		if len(s1) < len(s2) {
