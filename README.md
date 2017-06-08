@@ -2,7 +2,7 @@
 *It's just a game, you don't have to be mad :^)*
 
 ## Round 1 (The Heart Strings)
-Merge the two specified strings alternately, appending the current iteration counter to both strings.
+Merge two strings alternately, appending the current iteration counter to both strings.
 ```python
 s1 = "ABCDEFH"
 s2 = "123456789"
