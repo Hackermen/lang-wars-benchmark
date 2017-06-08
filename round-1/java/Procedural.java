@@ -1,4 +1,4 @@
-public class Solution1 {
+public class Procedural {
     public static void main(String[] args) {
         for (int i = 0; i < 10000000; i++) {
             final String s1 = "ABCDEFH" + i;
@@ -22,6 +22,8 @@ public class Solution1 {
                 }
                 result.append(s1, x, s1.length());
             }
+
+            if (i == 0) System.out.println(result);
         }
     }
 }

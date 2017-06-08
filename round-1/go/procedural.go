@@ -2,6 +2,7 @@ package main
 
 import (
 	"strconv"
+	"fmt"
 )
 
 func main() {
@@ -16,16 +17,21 @@ func main() {
 		x := 0
 		if len(s1) < len(s2) {
 			for x < len(s1) {
-				result = append(result, s1[x] + s2[x])
+				result = append(result, s1[x])
+				result = append(result, s2[x])
 				x++
 			}
 			result = append(result, s2[x:]...)
 		} else {
 			for x < len(s2) {
-				result = append(result, s1[x] + s2[x])
+				result = append(result, s1[x])
+				result = append(result, s2[x])
 				x++
 			}
 			result = append(result, s1[x:]...)
 		}
+
+		result_str := string(result[:])
+		if (i == 0) { fmt.Println(result_str) }
 	}
 }

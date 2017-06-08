@@ -14,3 +14,5 @@ for i in range(10000000):
             result += s1[x] + s2[x]
             x += 1
         result += s1[x:]
+
+    if i == 0: print(result)
